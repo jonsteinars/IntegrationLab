@@ -1,0 +1,16 @@
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: integrationlab-postgres
+    environment:
+      POSTGRES_USER: integrationlab
+      POSTGRES_PASSWORD: devpassword
+      POSTGRES_DB: integrationlab
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

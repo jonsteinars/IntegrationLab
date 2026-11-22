@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="IntegrationLab.Api/IntegrationLab.Api.csproj" />
+  <Project Path="IntegrationLab.Tests/IntegrationLab.Tests.csproj" />
+</Solution>
