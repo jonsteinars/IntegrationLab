@@ -4,6 +4,6 @@ public static class TransactionValidator
 {
     public static bool IsValidAmount(decimal amount)
     {
-        return amount >= 0;
+        return amount > 0;
     }
 }
